@@ -33,7 +33,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nombre\":\"k9\",\r\n    \"contrasenia\":\"sisi\"\r\n}",
+					"raw": "{\r\n    \"nombre\":\"usuario1\",\r\n    \"contrasenia\":\"12345\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -79,7 +79,7 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/actualizarcontrasenia?idUsuario=1670523411&nuevaContrasenia=12356",
+					"raw": "localhost:8080/api/actualizarcontrasenia?idUsuario=1890022056&nuevaContrasenia=1",
 					"host": [
 						"localhost"
 					],
@@ -91,11 +91,11 @@
 					"query": [
 						{
 							"key": "idUsuario",
-							"value": "1670523411"
+							"value": "1890022056"
 						},
 						{
 							"key": "nuevaContrasenia",
-							"value": "12356"
+							"value": "1"
 						}
 					]
 				}
@@ -108,7 +108,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/obtenerusuario/1670523411",
+					"raw": "localhost:8080/api/obtenerusuario/1094518181",
 					"host": [
 						"localhost"
 					],
@@ -116,7 +116,7 @@
 					"path": [
 						"api",
 						"obtenerusuario",
-						"1670523411"
+						"1094518181"
 					]
 				}
 			},
@@ -128,7 +128,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/borrarusuario/1763254906",
+					"raw": "localhost:8080/api/borrarusuario/1890022056",
 					"host": [
 						"localhost"
 					],
@@ -136,7 +136,36 @@
 					"path": [
 						"api",
 						"borrarusuario",
-						"1763254906"
+						"1890022056"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/login?usuario=usuario1&contrasenia=123456",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"login"
+					],
+					"query": [
+						{
+							"key": "usuario",
+							"value": "usuario1"
+						},
+						{
+							"key": "contrasenia",
+							"value": "123456"
+						}
 					]
 				}
 			},
