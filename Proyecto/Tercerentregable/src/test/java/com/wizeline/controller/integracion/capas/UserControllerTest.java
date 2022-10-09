@@ -43,6 +43,7 @@ public class UserControllerTest {
     @MockBean
     private UserDAO userDAO;
 
+    /* Conversión del contenido consumido usando JAXB o Jackson: Jackson - ObjectMapper */
     @Autowired
     private ObjectMapper objectMapper;
 

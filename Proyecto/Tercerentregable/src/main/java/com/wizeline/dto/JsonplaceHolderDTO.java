@@ -1,9 +1,5 @@
 package com.wizeline.dto;
 
-import com.fasterxml.jackson.annotation.JsonRootName;
-
-/* Conversión del contenido consumido usando JAXB o Jackson: Jackson */
-@JsonRootName("Datos Usuario")
 public class JsonplaceHolderDTO {
     private Long userId;
     private Long id;
