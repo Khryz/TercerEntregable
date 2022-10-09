@@ -88,6 +88,8 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
         * Pruebas para Happy Path - UserControllerTest - BuscaUsuarioPorIdUserController
         * Pruebas para Happy Path - UserControllerTest - EliminaUsuarioPorIdUserController
         * Pruebas para Happy Path - UserControllerTest - ConsumoDeApiPublicaUserController
+        
+        * Pruebas para Happy Path - UtilsMethod - ObtenerNumeroDeCuentaRandom
  
  ** Pruebas para cada Edge Case, puedes buscar los siguientes comentarios: **
  
@@ -112,3 +114,5 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
         * Edge Case - EliminaUsuarioPorIdController - ValidaParametroNuloOVacio
         * Edge Case - EliminaUsuarioPorIdController - RespuestaErroneaControlada
         * Edge Case - ConsumeApiPublicaController - RespuestaErroneaControlada
+        
+        * Edge Case - UtilsMethod - ObtenerNumeroDeCuentaRandomExcepcion
