@@ -65,6 +65,7 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
             * Prueba unitaria de cada operación CRUD: EliminarUsuarioPorIdUserService - remove()
  
  *** Uso de Mockito en cada prueba, puedes buscar los siguientes comentarios: ***
+ 
     * Uso de Mockito en cada prueba - UserServiceTest - Se mockean: uSerDAO y UserServiceImpl
     * Uso de Mockito en cada prueba - UserControllerTest - Se mockean: UserServiceImpl, UserDAO, ObjectMapper
  
@@ -89,6 +90,7 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
         * Pruebas para Happy Path - UserControllerTest - ConsumoDeApiPublicaUserController
  
  ** Pruebas para cada Edge Case, puedes buscar los siguientes comentarios: **
+ 
         * Edge Case - CreateUserService - CuerpoEntradaNulo
         * Edge Case - LoginUserService - ParametrosDeEntradaNulos
         * Edge Case - LoginUserService - ParametroDeEntradaNuloYVacio
@@ -110,11 +112,3 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
         * Edge Case - EliminaUsuarioPorIdController - ValidaParametroNuloOVacio
         * Edge Case - EliminaUsuarioPorIdController - RespuestaErroneaControlada
         * Edge Case - ConsumeApiPublicaController - RespuestaErroneaControlada
- 
- 
- 
- 
- 
- 
- 
- 
