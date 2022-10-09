@@ -13,8 +13,8 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
 *** Los puntos siguientes que ya son mas referenciados en código, los podemos encontrar dentro del proyecto haciendo uso del buscador general de IntelliJIdea,
  este obtenido con la convinacion de teclas: Ctrl+Shift+F ***
  
- * Consumo de API pública usando RestTemplate: Api_jsonplaceholder
- * Conversión del contenido consumido usando JAXB o Jackson: Jackson - ObjectMapper
+  * Consumo de API pública usando RestTemplate: Api_jsonplaceholder
+  * Conversión del contenido consumido usando JAXB o Jackson: Jackson - ObjectMapper
  
  *** API generada por Spring MVC con un endpoint de cada tipo, puedes encontrar los comentarios buscando: ***
  
@@ -30,6 +30,7 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
  * Uso de MongoTemplate
  
  *** Lectura de MongoDB usando MongoTemplate, puedes buscar estos comentarios: ***
+ 
       * Lectura de MongoDB usando MongoTemplate: mongoTemplate.findAll()
       * Lectura de MongoDB usando MongoTemplate: mongoTemplate.findOne()
       
@@ -38,6 +39,7 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
  * Borrado en MongoDB usando MongoTemplate: mongoTemplate.remove()
  
  *** Prueba unitaria de cada endpoint de la API, puedes buscar los siguientes comentarios: ***
+ 
      * Prueba unitaria de cada endpoint de la API - Crear Usuario
      * Prueba unitaria de cada endpoint de la API - Login
      * Prueba unitaria de cada endpoint de la API - Obtener Usuarios
@@ -47,12 +49,14 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
      * Prueba unitaria de cada endpoint de la API - Consumo de api publica por restTemplate
  
  *** Prueba unitaria de cada operación CRUD ** //Para este caso, hice pruebas directamente con el arhcivo UserDAO que usa mongoTemplate, busca los siguientes       comentarios: ***
+ 
     * Prueba unitaria de cada operación CRUD - mongoTemplate.save
     * Prueba unitaria de cada operación CRUD - mongoTemplate.remove
     * Prueba unitaria de cada operación CRUD - mongoTemplate.findAll
     * Prueba unitaria de cada operación CRUD - mongoTemplate.updateFirst
- 
+    
      *** Aunque si lo que se necesitas no son las pruebas con la clase mongoTemplate directamente, puedes buscar las pruebas con los servicios, busca los siguientes comentarios: ***
+     
             * Prueba unitaria de cada operación CRUD: CreateUserService - save()
             * Prueba unitaria de cada operación CRUD: LoginUserService - findOne()
             * Prueba unitaria de cada operación CRUD: CambioContraseniaUserService - updateFirst()
