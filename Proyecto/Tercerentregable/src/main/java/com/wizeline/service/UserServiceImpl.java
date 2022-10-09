@@ -38,6 +38,8 @@ public class UserServiceImpl implements UserServiceBO{
             log.info("No se inserto el usuario");
             ErrorDTO errorDTO = new ErrorDTO("ER001", "Usuario no creado");
 
+            respuesta.setCode("ER001");
+            respuesta.setStatus("Usuario no creado");
             respuesta.setErrors(errorDTO);
             return new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
         }
@@ -58,6 +60,8 @@ public class UserServiceImpl implements UserServiceBO{
             log.info("No se encontro el usuario");
             ErrorDTO errorDTO = new ErrorDTO("ER001", "Usuario no encontrado");
 
+            respuesta.setCode("ER001");
+            respuesta.setStatus("Usuario no encontrado");
             respuesta.setErrors(errorDTO);
             return new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
         }
@@ -79,6 +83,8 @@ public class UserServiceImpl implements UserServiceBO{
             log.info("No se actualizo el usuario");
             ErrorDTO errorDTO = new ErrorDTO("ER001", "No se actualizo el usuarios con id: "+idUsuario);
 
+            respuesta.setCode("ER001");
+            respuesta.setStatus("Contrasenia no actualizada");
             respuesta.setErrors(errorDTO);
 
             return new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
@@ -101,6 +107,8 @@ public class UserServiceImpl implements UserServiceBO{
             log.info("No se encontraron usuarios");
             ErrorDTO errorDTO = new ErrorDTO("ER001", "No se encontraron usuarios");
 
+            respuesta.setCode("ER001");
+            respuesta.setStatus("No se encontraron usuarios");
             respuesta.setErrors(errorDTO);
 
             return new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
@@ -122,14 +130,16 @@ public class UserServiceImpl implements UserServiceBO{
 
         if(usuario == null) {
             log.info("No se encontró el usuario");
-            ErrorDTO errorDTO = new ErrorDTO("ER001", "Usuario no creado");
+            ErrorDTO errorDTO = new ErrorDTO("ER001", "Usuario no encontrado");
 
+            respuesta.setCode("ER001");
+            respuesta.setStatus("Usuario no encontrado");
             respuesta.setErrors(errorDTO);
 
             return new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
         }
         respuesta.setCode("OK000");
-        respuesta.setStatus("Contrasenia de usuario actualizado");
+        respuesta.setStatus("Usuario encontrado");
         respuesta.setResultado(usuario);
 
         return ResponseEntity.ok(respuesta);
@@ -145,6 +155,8 @@ public class UserServiceImpl implements UserServiceBO{
             log.info("No se borro el usuario");
             ErrorDTO errorDTO = new ErrorDTO("ER001", "No se borro el usuarios con id: "+idUsuario);
 
+            respuesta.setCode("ER001");
+            respuesta.setStatus("Usuario no borrado");
             respuesta.setErrors(errorDTO);
 
             return new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
@@ -170,6 +182,8 @@ public class UserServiceImpl implements UserServiceBO{
             log.info("No se pudo consumir la api publica");
             ErrorDTO errorDTO = new ErrorDTO("ER001", "Fallo al consumir la api publica");
 
+            respuesta.setCode("ER001");
+            respuesta.setStatus("Error al consumir api");
             respuesta.setErrors(errorDTO);
 
             return new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
