@@ -6,6 +6,14 @@ public class JsonplaceHolderDTO {
     private String title;
     private boolean completed;
 
+    public JsonplaceHolderDTO(){}
+    public JsonplaceHolderDTO(long userId, long id, String title, boolean completed) {
+        this.userId = userId;
+        this.id = id;
+        this.title = title;
+        this.completed = completed;
+    }
+
     public Long getUserId() {
         return userId;
     }

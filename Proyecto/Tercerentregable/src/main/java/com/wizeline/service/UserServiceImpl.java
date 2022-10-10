@@ -67,7 +67,7 @@ public class UserServiceImpl implements UserServiceBO{
         }
 
         respuesta.setCode("OK000");
-        respuesta.setStatus("Usuario creado");
+        respuesta.setStatus("Login exitoso");
         respuesta.setResultado(usuarioEncontrado);
 
         return ResponseEntity.ok(respuesta);
