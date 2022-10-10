@@ -1,9 +1,17 @@
 package com.wizeline.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class JsonplaceHolderDTO {
+    /* Conversión del contenido consumido usando JAXB o Jackson: Jackson - @JsonProperty */
+
+    @JsonProperty("CampoUserId")
     private Long userId;
+    @JsonProperty("CampoId")
     private Long id;
+    @JsonProperty("CampoTitle")
     private String title;
+    @JsonProperty("CampoCompleted")
     private boolean completed;
 
     public JsonplaceHolderDTO(){}
