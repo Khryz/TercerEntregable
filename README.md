@@ -69,7 +69,7 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
     * Uso de Mockito en cada prueba - UserServiceTest - Se mockean: uSerDAO y UserServiceImpl
     * Uso de Mockito en cada prueba - UserControllerTest - Se mockean: UserServiceImpl, UserDAO, ObjectMapper
  
- * Generación de logs por prueba: Cada prueba unitaria contiene una breve descripcion en cada linea usada //Nos comentaron que este punto era como domentar con logs                                                                                                                cada paso de la prueba
+ * Generación de logs por prueba: Cada prueba unitaria contiene una breve descripcion en cada linea usada //Nos comentaron que este punto era como comentar con logs                                                                                                                cada paso de las pruebas
  
  *** Pruebas para Happy Path: Puedes buscar los comentarios: ***
  
