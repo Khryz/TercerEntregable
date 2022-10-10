@@ -17,6 +17,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(Utils.class)
 public class UtilsTest {
+    /* Pruebas de integracion - UtilsTestIntegracion - HappyPaths */
     /* Generación de logs por prueba - UtilsTest: Logger */
     private static final Logger log = LoggerFactory.getLogger(UtilsTest.class);
 
@@ -34,6 +35,9 @@ public class UtilsTest {
         log.info("Se compara el valor esperado con el real");
         Assertions.assertEquals(1, usuarioEntidad.getId());
     }
+
+    /* La prueba siguiente tambien funciona, solo que si corres ambos test a la vez, marca error en este,
+     ya que dice que la clase mockeada de metodos estaticos ya existe y no lo pude resolver :c */
 
     /*@Test
     @DisplayName("Edge Case - UtilsMethod - ObtenerNumeroDeCuentaRandomExcepcion")

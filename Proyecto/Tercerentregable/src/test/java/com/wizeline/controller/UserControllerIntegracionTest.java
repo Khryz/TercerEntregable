@@ -30,6 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 public class UserControllerIntegracionTest {
+    /* Pruebas de integracion - UserControllerIntegracionTest - HappyPaths */
     /* Generación de logs por prueba - UserControllerIntegracionTest: Logger */
     private static final Logger log = LoggerFactory.getLogger(UserControllerIntegracionTest.class);
 

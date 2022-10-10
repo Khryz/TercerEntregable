@@ -21,6 +21,7 @@ import java.util.List;
 
 @SpringBootTest
 public class UserServiceTestIntegracion {
+    /* Pruebas de integracion - UserServiceTestIntegracion - HappyPaths */
     /* Generación de logs por prueba - UserServiceTestIntegracion: Logger */
     private static final Logger log = LoggerFactory.getLogger(UserServiceTestIntegracion.class);
     @MockBean
