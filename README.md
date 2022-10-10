@@ -125,7 +125,7 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
       * Controller
       * Utils
       
-    puedes buscar las referencias buscando los siguientes comentarios:
+    puedes encontrar las referencias buscando los siguientes comentarios:
     
       * Pruebas de integracion - UserControllerIntegracionTest - HappyPaths
       * Pruebas de integracion - UserServiceTestIntegracion - HappyPaths
