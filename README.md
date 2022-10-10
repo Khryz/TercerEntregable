@@ -116,3 +116,4 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
         * Edge Case - ConsumeApiPublicaController - RespuestaErroneaControlada
         
         * Edge Case - UtilsMethod - ObtenerNumeroDeCuentaRandomExcepcion
+* Implementación de JaCoCo o SonarCloud (mínimo 70% de cobertura): 
