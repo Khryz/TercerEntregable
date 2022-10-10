@@ -17,7 +17,7 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
  este obtenido con la convinacion de teclas: Ctrl+Shift+F ***
  
   * Consumo de API pública usando RestTemplate: Api_jsonplaceholder
-  * Conversión del contenido consumido usando JAXB o Jackson: Jackson - ObjectMapper
+  * Conversión del contenido consumido usando JAXB o Jackson: Jackson - @JsonProperty
  
  *** API generada por Spring MVC con un endpoint de cada tipo, puedes encontrar los comentarios buscando: ***
  
