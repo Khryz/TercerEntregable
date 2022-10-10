@@ -118,3 +118,13 @@ Este es el Readme del tercer entregable, en este documento detallo la forma para
         * Edge Case - UtilsMethod - ObtenerNumeroDeCuentaRandomExcepcion
         
 * Implementación de JaCoCo o SonarCloud (mínimo 70% de cobertura): Para este caso, cuando corras la carpeta "java [ test ]", se crea una carpeta en la direccion: "raizDelProyecto/build/jacocoHtml/index.html", al abrir este archivo en un explorador web, se puede observar que tiene cobertura de 91%, excluyendo los paquetes: dto, dao y entidad marcados en el archivo "build.gradle" (Nos comentaron que no serían necesarios para pruebas, asi que se excluyeron de la lista de pruebas integrales)
+    
+    Para lograr este porcentaje se crearon pruebas integrales, de las capas:
+      * Services
+      * Controller
+      * Utils
+      
+    puedes buscar las referencias buscando los siguientes comentarios:
+      * Pruebas de integracion - UserControllerIntegracionTest - HappyPaths
+      * Pruebas de integracion - UserServiceTestIntegracion - HappyPaths
+      * Pruebas de integracion - UtilsTestIntegracion - HappyPaths
