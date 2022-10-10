@@ -3,6 +3,7 @@
 Este es el Readme del tercer entregable, en este documento detallo la forma para encontrar mas rápido la información a evaluar...
 
 * Captura de pantalla de proyecto generado por Spring Initializr: Esta prueba se encuentra en la carpeta "Prueba_SpringInicializr" de este repositorio
+* El proyecto fué creado de tipo gradle como su archivo desplegable
 * Dockerfile desplegando en el contenedor: Nos comentaron que se tomaria como bueno con tan solo tener el archivo "DockerFile", 
   ya que por motivos de administracion del equipo no fue posible correr el programa Docker, este archivo se encuentra en la siguiente direccion de este repositorio: 
   "Proyecto/Tercerentregable/Dockerfile".
